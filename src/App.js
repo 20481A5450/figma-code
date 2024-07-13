@@ -19,25 +19,28 @@ function App() {
         </nav>
       </header>
       <main>
-        <div className="Section-2">
-          <section className="initiative">
-            <div className="initiative-tag">🎓 An IIT Delhi Alumni Initiative</div>
-          </section>
-          <section className="hero">
-            <h1>
-              Become an Expert in the field of <span className="highlight">Data Science with</span> <span className="highlight">6 courses</span>
-            </h1>
-            <p>A specially crafted Tech Kickstarter, with 5+ extensive online courses.</p>
-            <div className="features">
-              <div className="feature">🌟 Personal Mentorship</div>
-              <div className="feature">🌟 Internship Assistance</div>
-              <div className="feature">🌟 Industry Certified Courses</div>
-            </div>
-            <div className="cta-buttons">
-              <a href="#enroll" className="enroll">Enroll Now</a>
-              <a href="#know-more" className="know-more">Know More</a>
-            </div>
-          </section>
+        <div className="section-2">
+          <div className="div1">
+            <section className="initiative">
+              <div className="initiative-tag">🎓 An IIT Delhi Alumni Initiative</div>
+            </section>
+            <section className="hero">
+              <h1>
+                Become an Expert in the field of <span className="highlight">Data Science with</span> <span className="highlight">6 courses</span>
+              </h1>
+              <p>A specially crafted Tech Kickstarter, with 5+ extensive online courses.</p>
+              <div className="features">
+                <div className="feature">🌟 Personal Mentorship</div>
+                <div className="feature">🌟 Internship Assistance</div>
+                <div className="feature">🌟 Industry Certified Courses</div>
+              </div>
+              <div className="cta-buttons">
+                <a href="#enroll" className="enroll">Enroll Now</a>
+                <a href="#know-more" className="know-more">Know More</a>
+              </div>
+              </section>
+          </div>
+          <div className="2nd_half"></div>
         </div>
         <section className="stats">
           <div className="stat">

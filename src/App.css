@@ -5,6 +5,15 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+}
 
 .header {
   display: flex;
@@ -79,11 +88,21 @@ body {
   background-color: #9C27B0;
 }
 
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.section-2 .div1 {
+  width: 60%;
+}
+
 .initiative {
   display: flex;
-  justify-content: center;
   padding: 1rem;
   margin-bottom: -3rem;
+  margin-left: 45px;
 }
 
 .initiative-tag {
@@ -93,8 +112,10 @@ body {
   padding: 1rem 1rem;
   display: flex;
   align-items: center;
+  font-size: larger;
   gap: 0.5rem;
   margin-top: 25px;
+  margin-bottom: -20px;
 }
 
 .hero {
@@ -104,7 +125,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -138,16 +159,16 @@ body {
 
 .cta-buttons {
   display: flex;
-  justify-content: center;
   gap: 1rem;
   margin: 2rem 0;
+
 }
 
 .cta-buttons a {
   background-color: #9C27B0;
   color: white;
-  padding: 1rem 2rem;
-  border-radius: 50px;
+  padding: 1rem 3rem;
+  border-radius: 12px;
   text-decoration: none;
   font-weight: 700;
 }
@@ -155,7 +176,7 @@ body {
 .cta-buttons a.know-more {
   background-color: transparent;
   color: #9C27B0;
-  border: 2px solid #9C27B0;
+  border: 0px solid #9C27B0;
 }
 
 .stats {
