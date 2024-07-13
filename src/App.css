@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #333;
+  padding: 1rem 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem 8rem;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  background-color: transparent;
+  margin-left: 80%;
+  padding: 0.5rem 0.5rem;
+  border-color: transparent;
+  color: #9C2780;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.signup {
+  background-color: #9C27B0;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav {
+  display: flex;
+  gap: 5px;
+  margin: auto;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.auth-buttons a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.auth-buttons .login {
+  background-color: transparent;
+}
+
+.auth-buttons .signup {
+  background-color: #9C27B0;
+}
+
+.initiative {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.initiative-tag {
+  background-color: white;
+  border: 1px solid #FFC107;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero .highlight {
+  color: #9C27B0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #757575;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  background-color: white;
+  border: 1px solid #FFC107;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.cta-buttons a {
+  background-color: #9C27B0;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.cta-buttons a.know-more {
+  background-color: transparent;
+  color: #9C27B0;
+  border: 2px solid #9C27B0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F3E5F5;
+  padding: 2rem 1rem;
+  color: #9C27B0;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat i {
+  font-size: 2rem;
+}
+
+.stat p {
+  margin: 0.5rem 0;
 }
