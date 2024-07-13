@@ -83,20 +83,23 @@ body {
   display: flex;
   justify-content: center;
   padding: 1rem;
+  margin-bottom: -3rem;
 }
 
 .initiative-tag {
   background-color: white;
   border: 1px solid #FFC107;
   border-radius: 10px;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin-top: 25px;
 }
 
 .hero {
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
   padding: 2rem 1rem;
 }
 
