@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="">
+      <div className="Section-1">
         <div className="logo">Logo
           <button className="login">Login</button>
           <button className="signup">Signup</button>
@@ -19,7 +19,7 @@ function App() {
         </nav>
       </header>
       <main>
-        <div className="">
+        <div className="Section-2">
           <section className="initiative">
             <div className="initiative-tag">🎓 An IIT Delhi Alumni Initiative</div>
           </section>
